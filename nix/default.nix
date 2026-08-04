@@ -37,7 +37,7 @@ customStdenv.mkDerivation {
   ];
 
   buildInputs = flatten [
-    (optional debug gtest)
+    gtest
     pixman
   ];
 
